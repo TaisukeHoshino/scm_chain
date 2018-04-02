@@ -46,7 +46,7 @@ App = {
 
      setManufacturer: function() {
 
-       //テキストボックスに入力されたアドレスを取得
+       //テキストボックスに入力されたアドレスとその他メーカーの情報を取得
        var manufacturerAddress = $('#manufacturerAddressInput').val();
        var manufacturerPrefix = $('#manufacturerPrefixInput').val();
        var manufacturerName = $('#manufacturerNameInput').val();
