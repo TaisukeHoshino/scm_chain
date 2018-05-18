@@ -55,6 +55,11 @@ contract ProductManager is ManufacturersManager{
          // }
      }
 
+     //確認用
+     function checkOwnership(uint _EPC) public view returns(address){
+       return(products[_EPC].owner);
+     }
+
 
 
 
